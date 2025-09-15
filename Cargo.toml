@@ -1,0 +1,8 @@
+[package]
+name = "ort_binding"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ort = { path = "../ort", features = ["tensorrt", "cuda"] }
+ndarray = "0.16"

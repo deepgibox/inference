@@ -60,6 +60,6 @@ fn main() -> Result<()> {
 
     println!("Inference duration: {:?}", duration);
     print!("Inference done with IOBinding!");
-
+    print!("Output tensor shape: {:?}", outputs[0].dimensions());
     Ok(())
 }
